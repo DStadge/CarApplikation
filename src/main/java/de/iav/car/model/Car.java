@@ -2,14 +2,14 @@ package de.iav.car.model;
 
 import java.util.Objects;
 
-public class car {
+public class Car {
 
     private String manufactor;
     private String model;
     private boolean hu;
     private int seat;
 
-    public car(String manufactor, String model, boolean hu, int seat) {
+    public Car(String manufactor, String model, boolean hu, int seat) {
         this.manufactor = manufactor;
         this.model = model;
         this.hu = hu;
@@ -52,7 +52,7 @@ public class car {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        car car = (car) o;
+        Car car = (Car) o;
         return hu == car.hu && seat == car.seat && Objects.equals(manufactor, car.manufactor) && Objects.equals(model, car.model);
     }
 
