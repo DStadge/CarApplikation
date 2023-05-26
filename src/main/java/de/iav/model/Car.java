@@ -1,4 +1,4 @@
-package de.iav.car.model;
+package de.iav.model;
 
 import java.util.Objects;
 

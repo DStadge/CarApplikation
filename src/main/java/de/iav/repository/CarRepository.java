@@ -1,6 +1,6 @@
-package de.iav.car.repository;
+package de.iav.repository;
 
-import de.iav.car.model.Car;
+import de.iav.model.Car;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
